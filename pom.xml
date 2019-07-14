@@ -22,7 +22,7 @@
     <junit.version>4.12</junit.version>
     <spring.version>2.1.6.RELEASE</spring.version>
     <mybatis.version>2.0.1</mybatis.version>
-    <login.version>2.3</login.version>
+    <user.version>3.4</user.version>
   </properties>
 
 </project>
