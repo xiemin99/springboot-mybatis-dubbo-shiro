@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.xm</groupId>
+  <artifactId>manager</artifactId>
+  <packaging>pom</packaging>
+  <version>1.0-SNAPSHOT</version>
+
+  <modules>
+    <module>manager-pojo</module>
+    <module>manager-mapper</module>
+    <module>manager-service</module>
+    <module>manager-web</module>
+  </modules>
+
+  <name>Maven</name>
+  <!-- 版本管理 -->
+  <properties>
+    <junit.version>4.12</junit.version>
+    <spring.version>4.1.3.RELEASE</spring.version>
+    <mybatis.version>3.2.8</mybatis.version>
+
+  </properties>
+
+</project>
